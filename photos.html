@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Smiling Knite</title>
+  <link rel="stylesheet" href="photo.css">
+</head>
+<body>
+
+  <header>
+  <a href="index.html">  <h1>Photography</h1></a>
+  </header>
+
+  <div class="list ">
+    <div class="rowImg">
+
+        <img class="photos three" src="pngFiles/resume_box.jpg" alt="Izzy the Bulldog">
+        <img class="photos two" src="pngFiles/waffles_box.png" alt="Waffles!">
+        <img class="photos one" src="pngFiles/sparks_box.jpg" alt="Long Exposure">
+    </div>
+  </div>
+
+<div class="taf ">
+<img  src="imgFiles/thatsAllFolks.gif"></img>
+</div>
+
+  <footer>
+    Copyright &copy; Tyler Mondragon 2016
+  </footer>
+
+<script src="https://code.jquery.com/jquery-3.1.0.min.js" integrity="sha256-cCueBR6CsyA4/9szpPfrX3s49M9vUU5BgtiJj06wt/s=" crossorigin="anonymous"></script>
+
+<script>
+  $(document).ready(function() {
+    $('.list ').click(function() {
+      $('.taf').addClass('taff');
+      $('.taff').removeClass('taf');
+    });
+    
+  });
+</script>
+</body>
+</html>
